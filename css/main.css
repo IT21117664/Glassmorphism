@@ -9,10 +9,10 @@
     }
     
     section {
+        display: flex;
         position: absolute;
         width: 100%;
         height: 100vh;
-        display: flex;
         justify-content: center;
         align-items: center;
         background: linear-gradient(to bottom, #ff4f8b, #dff1ff);
@@ -147,6 +147,7 @@
         left: 0;
         bottom: -10px;
         width: 80px;
+        border-radius: 50px;
         height: 4px;
         background: #fff;
     }
